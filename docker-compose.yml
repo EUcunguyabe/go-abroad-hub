@@ -1,0 +1,5 @@
+services:
+  go-abroad-hub:
+    build: .
+    ports:
+      - "8000:8000"
